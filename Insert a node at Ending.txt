@@ -1,0 +1,25 @@
+Write a function to insert a node at ending in a given single linked list..?
+Sol:: 
+Voia insert at ending()
+{
+struct node*new node*ptr;
+int elements;
+printf("\n Enter elements to be insert");
+scanf("%d", &elements);
+new node(Struct node*)malloc(size of (struct node));
+new node->data=elements;
+new node->next=NULL;
+if (start==NULL)
+{
+start=newnode;
+}
+else
+{
+ptr=start;
+while(ptr->next!=NULL)
+{
+ptr=ptr->next;
+}
+ptr->next=new node;
+}
+}
